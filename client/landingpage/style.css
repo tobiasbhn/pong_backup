@@ -1,0 +1,63 @@
+body {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	font-family:'Roboto' !important;
+	font-weight:bold !important;
+	background-color:lightgreen;
+}
+#start-container {
+	width:80%;
+	max-width:300px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	-ms-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+#start-heading-1 {
+        font-size:2em;
+}
+#start-heading-2 {
+        font-size:1.5em;
+}
+.text {
+	text-align:center;
+	width:100%;
+	margin:3px 0;
+	padding:2px 0;
+	float:left;
+	border:0px;
+	font-size:1em;
+}
+#error {
+	margin-top:20px;
+	color:red;
+	font-weight:bold;
+}
+.label {
+	text-align:left;
+	margin:0 !important;
+	padding:0 !important;
+}
+.left {
+	text-align:left !important;
+}
+.button {
+	background-color:white;
+}
+.button:hover {
+	cursor:pointer;
+}
+#join-game-back {
+	margin-top:10px;
+}
+.input-container {
+	width:100%;
+	float:left;
+	margin-top:10px;
+}
+#input-container-2 {
+	display:none;
+}

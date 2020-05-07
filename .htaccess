@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^165\.227\.140\.48$
+RewriteRule ^(.*)$ https://pong.tobiasbohn.com/$1 [L,R=301]

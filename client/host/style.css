@@ -1,0 +1,36 @@
+body {
+	background-color:black;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	color:white;
+}
+
+.stop-url-bar-rezizing {
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	position:fixed;
+}
+#loadText {
+        font-size:40vmin;
+        font-weight:bold;
+        width:100vw;
+        height:100vh;
+        display: table-cell;
+        vertical-align: middle;
+        text-align:center;
+}
+
+#game {
+	display:none;
+}
+
+#canvas {
+	position:absolute;
+	-ms-transform-origin:top left;
+	-webkit-transform-origin:top left;
+	transform-origin:top left;
+	border:1vh solid white;
+}
+

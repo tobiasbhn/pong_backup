@@ -1,0 +1,19 @@
+{
+  "name": "pong.tobiasbohn.com",
+  "version": "1.0.0",
+  "description": "host and play the traditional pong game online and play together with friends.",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pong"
+  ],
+  "author": "Tobias Bohn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "file-system": "^2.2.2",
+    "socket.io": "^2.2.0"
+  }
+}
